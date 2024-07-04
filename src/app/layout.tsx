@@ -5,8 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Who is That Pokemon?",
+  title: "Who's That Pokemon?",
   description: "Its Pikachu!",
+  icons: {
+    icon: "/monsterball.png",
+  },
 };
 
 export default function RootLayout({

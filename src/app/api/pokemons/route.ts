@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import axios from "axios";
 
-const TOTAL_POKEMON = 151;
+const TOTAL_POKEMON = 649; //5세대까지 불러와 보았다. 블랙화이트 리메이크 나올 때 까지 숨참는다 흡
 
 export const GET = async (request: Request) => {
   try {

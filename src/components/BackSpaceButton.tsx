@@ -7,7 +7,11 @@ const BackSpaceButton = () => {
   const router = useRouter();
 
   return (
-    <button type="button" onClick={() => router.push("/")}>
+    <button
+      type="button"
+      className="border-4 border-green-700 mb-2.5"
+      onClick={() => router.push("/")}
+    >
       뒤로가기
     </button>
   );
